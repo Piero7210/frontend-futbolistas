@@ -12,6 +12,7 @@ Antes de comenzar, asegúrate de tener instalado Node.js en tu máquina. Puedes 
 git clone https://github.com/tu-usuario/futbolistas-app.git
 cd futbolistas-app
 npm install
+```
 
-Uso de la aplicación
-La aplicación se conecta automáticamente al endpoint /futbolista para obtener los datos de los futbolistas y los muestra en una tabla. Puedes interactuar con la tabla para ordenar los datos según diferentes criterios y también realizar búsquedas para encontrar jugadores específicos.
+## Uso de la aplicación
+La aplicación se conecta automáticamente al endpoint /futbolista para obtener los datos de los futbolistas y los muestra en una tabla. Contiene paginado y también puedes clickear en los jugadores para encontrar su detail.
